@@ -1,4 +1,4 @@
-#My second website - a short history of the Green Day band.
+# My second website - a short history of the Green Day band.
 ## On this website I used:
 - BEM convention
 - Table
