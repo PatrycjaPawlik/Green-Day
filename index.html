@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/sectionContainer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Historia Green Day</title>
+    <meta property="og:image" content="images/Share.png">
+</head>
+
+<body class="body">
+    <button class="js-button">Zmień tło na <span class="js-bodyColor">białe</span></button>
+    <header class="header">Historia zespołu Green Day</header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="navigation__link" href="#członkowie-zespołu">Członkowie zespołu</a></li>
+            <li><a class="navigation__link" href="#kariera">Kariera</a></li>
+            <li><a class="navigation__link" href="#ulubione-utwory">Moje ulubione utwory</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section">
+            <h1 id="członkowie-zespołu" class="section__header">Członkowie zespołu</h1>
+            <p class="section__text">Billie Joe Armstrong - muzyk, kompozytor, wokalista i autor tekstów. Od 5 roku życia śpiewał
+                okazjonalnie
+                w szpitalach dla dzieci oraz w domach spokojnej starości. Nagrał wtedy też swój swój debiutancki singiel
+                "Looking for love". W 1987 roku założył zespół "Green Day" wraz z basistą Mikiem Dirntem oraz perkusistą
+                Johnem Kiffmeyerem. Od 1994 roku jest mężem Adrienne Nesser. </p>
+            <img class="section__imageBillie" src="images/BillieJoeArmstrong.jpg" alt="Billie Joe Armstrong">
+            <p class="section__text">Mike Dirnt - właściwie Michael Ryan Pritchard. Już w wieku 15 lat usamodzielnił się i
+                wynajmował pokój u
+                matki Billiego Joe Armstronga, a także zatrudnił się w miejscu gdzie ona pracowała. W zespole gra na
+                basie i pisze teksty.</p>
+            <img class="section__imageMike" src="images/MikeDirnt.jpg" alt="Mike Dirnt">
+            <p class="section__text">Tre Cool - właściwie Frank Edwin Wright III. Urodził się w Niemczech, ale wychował w USA. Od
+                15 roku
+                życia grał na perkusji w zespole The Lookouts i występował na popularnej scenie Gilman Street w Berkley.
+                Kiedy perkusista John Kiffmeyer w 1991 roku opuścił zespół Green Day, Tre zajął jego miejsce.</p>
+            <img class="section__imageTre" src="images/TreCool.jpg" alt="Tre Cool">
+        </section>
+
+        <section class="section">
+            <h2 id="kariera" class="section__text">Kariera</h2>
+            <p class="section__text">Największą popularność przyniósł zespołowi album "Dookie" w 1994 roku, który sprzedał się w
+                15 milionach
+                egzemplarzy. Już pierwszy singiel z płyty "Longview" uzyskał 1. miesjce na liście Billboard Modern Rock
+                Tracks.</p>
+            <p class="section__text">Następnym hitem (14 milionów sprzedanych egzemplarzy) okazał się album "American Idiot"
+                wydany w 2004
+                roku i nazywany przez krytyków punk-operą. Na tym albumie Billie Joe krytukuje rządy Georga Busha, a
+                sama płyta powstała przez przypadek ponieważ materiał do innego albumu został skradziony.</p>
+            <p class="section__text">W sumie zespół wydał 13 albumów studyjnych, a w kwietniu 2015 roku został wprowadzony do
+                Rock and Roll
+                Hall of Fame (muzeum rock and rolla i rocka oraz hall of fame honorująca artystów rockowych i inne
+                osoby, które wniosły zasadniczy wkład w rozwój tych gatunków muzyki).</p>
+        </section>
+        <section class="section">
+            <h3 id="ulubione-utwory" class="section__text">Moje ulubione utwory</h3>
+            <div class="container"></div>
+            <table class="table">
+                <caption class="table__caption">Moje ulubione utwory</caption>
+                <tr class="table__Row">
+                    <th class="table__Cell table__Header" scope="col">Wykonawca</th>
+                    <th class="table__Cell table__Header" scope="col">Album</th>
+                    <th class="table__Cell table__Header" scope="col">Utwór</th>
+                </tr>
+                <tr class="table__Row">
+                    <th class="table__Cell table__Header" scope="row" rowspan="5">Green Day</th>
+                    <td class="table__Cell">Kerplunk!</td>
+                    <td class="table__Cell">Welcome to paradise</td>
+                </tr>
+                <tr class="table__Row">
+                    <td class="table__Cell">Dookie</td>
+                    <td class="table__Cell">She</td>
+                </tr>
+                <tr class="table__Row">
+                    <td class="table__Cell" rowspan="2">American Idiot</td>
+                    <td class="table__Cell">Jesus of suburbia</td>
+                </tr>
+                <tr class="table__Row">
+                    <td class="table__Cell">Give me novocaine</td>
+                </tr>
+                <tr class="table__Row">
+                    <td class="table__Cell">¡Uno!</td>
+                    <td class="table__Cell">Oh Love</td>
+                </tr>
+            </table>
+            </div>
+        </section>
+        <footer class="section section__text">Wszystkie informacje pochodzą z <a rel="noreferrer noopener"
+                target="_blank" href="https://pl.wikipedia.org/wiki/Green_Day" title="Informacje o zespole Green Day">
+                wikipedii (nowa
+                karta)</a></footer>
+    </main>
+</body>
+
+</html>

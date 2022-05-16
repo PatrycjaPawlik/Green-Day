@@ -1,0 +1,20 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.navigation__link {
+    padding: 40px;
+    color: #000000;
+}
+
+.navigation__link:hover {
+    color: #25e913;
+    outline: none;
+}
