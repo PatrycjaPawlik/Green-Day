@@ -4,7 +4,7 @@
 - Table
 - Simple navigation with links to sections
 - Link to the Wikipedia article
-- Button that changes the bacground color
+- Button that changes the background color
 - Function with classList.toggle and if/else
 ### DEMO
 https://patrycjapawlik.github.io/Green-Day/
